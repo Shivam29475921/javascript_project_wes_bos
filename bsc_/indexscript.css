@@ -1,0 +1,144 @@
+body
+{
+    background: url(images/backgrnd.jpg);
+    background-size: contain;
+}
+a
+{
+    display: inline;
+}
+.login, .signup
+{
+    color: white;
+}
+.text-end:hover
+{
+    color:black;
+}
+.mb-3
+{
+    background: url(images/gym.jpg) no-repeat center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.col
+{
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 30px black;
+    border-radius: 7px;
+}
+.beginner
+{
+    position: relative;
+    background: url(images/bgn.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.bgn
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.beginner:hover, .intermediate:hover, .advanced:hover, .gym-gear:hover, .apparels:hover, .about:hover
+{
+    box-shadow: 1px 1px 40px white;
+    color: white;
+}
+
+.intermediate
+{
+    position: relative;
+    background: url(images/intr.jpg);
+    background-size: cover;
+    background-position: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+}
+.itm
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.advanced
+{
+    position: relative;
+    background: url(images/advanced.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+}
+.adv
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.gym-gear
+{
+    position: relative;
+    background: url(images/gymgear.jpg);
+    object-fit: contain;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+}
+.ggr
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.apparels
+{
+    position: relative;
+    background: url(images/apparels.webp);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+}
+.appr
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.about
+{
+    position: relative;
+    background: url(images/about.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 600;
+}
+.abt
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
