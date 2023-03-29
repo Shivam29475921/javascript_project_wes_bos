@@ -1,0 +1,55 @@
+body
+{
+    background: url(images/backgrnd.jpg);
+    background-size: cover;
+    color: white;
+}
+.welcome
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 5.0em;
+    margin-bottom: 50px;
+}
+.introduction
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.fullbodyheading
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 150;
+    font-size: 5.0em;
+    font-style: oblique;
+}
+.fullbodyintro
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.dayheading
+{
+   text-decoration: underline;
+   font-size: 1.7em;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.table
+{
+    color: white;
+}
+.exercise:active, .exercise
+{
+    text-decoration: none;
+    color: white;
+}
+.exercise:hover
+{
+    font-size: 1.2em;
+    color: yellow;
+}
