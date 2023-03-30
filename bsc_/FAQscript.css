@@ -1,0 +1,14 @@
+body
+{
+    background: url(images/backgrnd.jpg);
+    background-size: cover;
+    color: white;
+}
+.FAQheading
+{
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 5.0em;
+    margin-bottom: 50px;
+}

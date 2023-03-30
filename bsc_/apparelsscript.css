@@ -1,0 +1,96 @@
+body
+{
+    background: url(images/backgrnd.jpg);
+    background-size: cover;
+    color: white;
+}
+.welcome
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 5.0em;
+    margin-bottom: 50px;
+}
+.introduction
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.row
+{
+    box-sizing: content-box;
+    border: 1px solid white ;
+    margin: 20px;
+    height: 500px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 30px black;
+}
+.row:hover
+{
+    box-shadow: 4px 4px 30px white;
+}
+a:hover, a
+{
+    text-decoration: none;
+    color: black;
+}
+.col
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 1.9em;
+    text-align: left;
+}
+.col:hover
+{
+    color: yellow;
+}
+.tees
+{
+    background: url(images/tees.jpg);
+    background-size: cover;
+}
+.stringers
+{
+    background: url(images/stringers.jpg);
+    background-size: cover ;
+    background-position: 20%;
+}
+.sweatpants
+{
+    background: url(images/sweatpants.jpg);
+    background-size: cover;
+    background-position: 20%;
+    text-align: right;
+}
+.head-bands
+{
+    background: url(images/headbands.jpg);
+    background-size: cover;
+}
+.hoodies
+{
+    background: url(images/hoodies.jpg);
+    background-size: cover;
+}
+.gym-shoes
+{
+    background: url(images/gym-shoes.jpg);
+    background-size: cover;
+    background-position: 10%;
+    text-align: right;
+}
+.homepage
+{
+    color: blue;
+    margin-left:300px;
+}
+.homepage:hover
+{
+    color: blue;
+    margin-left:300px;
+    text-decoration: underline;
+}
