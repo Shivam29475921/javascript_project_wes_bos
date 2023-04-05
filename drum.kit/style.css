@@ -1,0 +1,43 @@
+body
+{
+    background: url(images/background.jpg);
+    background-size: cover;
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.container
+{
+   margin-left: 20%;
+   margin-top: 200px;
+}
+
+.key
+{
+    font-size: 1.5em;
+    position: relative;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    transition: all 0.05s;
+}
+.playing
+{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px yellowgreen;
+}
+span{
+    font-size: 1.2em;
+    position: absolute;
+    bottom:5px;
+    left:4px;
+}
