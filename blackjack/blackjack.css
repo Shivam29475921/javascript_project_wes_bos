@@ -1,0 +1,55 @@
+body
+{
+    background: url(images/bckgnd.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow-y: hidden;
+}
+.heading
+{
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+    color: goldenrod;
+}
+.subheading
+{
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;   
+}
+.prompt, .card, #sum-el
+{
+    margin-top: 40px;
+    font-style: oblique;
+    color: white;
+    font-size: 1.6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card , #sum-el{
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.startgame, .newcard, .reset
+{
+    margin: auto;
+    margin-top: 15px;
+    width: 160px;
+    height: 30px;
+    background-color: goldenrod;
+    border: 0px;
+    border-radius: 2px;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 15px;
+    display: block;
+}
+.newcard, .reset
+{
+    margin-top: 4px;
+}

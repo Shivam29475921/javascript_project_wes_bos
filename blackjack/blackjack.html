@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <div class="heading">Blackjack</div>
+    <div class="subheading">Get a sum of exactly 21, you win!</div>
+    <div class="prompt" id="message-el">Want to play a round?</div>
+    <div id="card-el" class="card">Cards: </div>
+    <div id="sum-el">Sum:</div>
+
+    <button class="startgame" onclick="startGame()">START GAME</button>
+    <button class="newcard" onclick="newCard()">NEW CARD</button>
+    <button class="reset" onclick="reset()">RESET</button>
+
+    <script src="blackjack.js"></script>
+</body>
+</html>
