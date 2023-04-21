@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="main_page.css">
+    <script defer src="main_page.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 class="heading">
+            Turn the lights off!
+        </h1>
+        <div class="sub-heading">Click as many light bulbs as you can to turn them off</div>
+
+        <div class="input">
+            <form action="">
+                <p>Choose difficulty</p>
+                <select class="select" id="choose_difficulty">
+                    <option value="0">Easy</option>
+                    <option value="1">Medium</option>
+                    <option value="2">Hard</option>
+
+                </select>
+
+                <p>Choose duration</p>
+                <select class="select" id="choose_time">
+                    <option value="15">15 seconds</option>
+                    <option value="30">30 seconds</option>
+                    <option value="60">1 minute</option>
+
+                </select>
+                <br>
+                <button type="button" onclick="startGame()"> Start New Game</button>
+            </form>
+        </div>
+        <div class="Scoreboard">
+            Scoreboard: 
+            <span class="score">0</span>
+        </div>
+
+        <div class="final-score"></div>
+
+        <div class="game">
+
+            
+                <div class="hole hole1">
+                    <div class="mole">
+
+                    </div>
+                </div>
+            
+
+            
+                <div class="hole hole2">
+
+                    <div class="mole">
+
+                    </div>
+                </div>
+            
+
+            
+                <div class="hole hole3">
+
+                    <div class="mole">
+                    </div>
+                </div>
+            
+
+            
+                <div class="hole hole4">
+
+                    <div class="mole">
+
+                    </div>
+                </div>
+            
+
+            
+                <div class="hole hole5">
+
+                    <div class="mole">
+
+                    </div>
+                </div>
+            
+
+            
+                <div class="hole hole6">
+
+                    <div class="mole">
+
+                    </div>
+                </div>
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>

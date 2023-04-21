@@ -16,8 +16,6 @@ panels.forEach(panel => panel.addEventListener("click", toggleOpen));
 panels.forEach(panel => panel.addEventListener("transitionend", toggleActive));
 window.addEventListener("keydown", function(event)
 {
-
-        console.log("enter");
         panels.forEach((panel) => {
             panel.classList.remove("open");
         });
