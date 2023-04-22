@@ -12,7 +12,7 @@ window.addEventListener("keydown", (e) =>
 
 const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
-const moles = document.querySelectorAll('.mole');
+const lights = document.querySelectorAll('.light');
 let lastHole;
 let timeUp = false;
 let score = 0;
@@ -69,6 +69,15 @@ function startGame() {
       Your final score is : ${score}
     </p>`
   }, totalTime*1000)
+
+  inputTimeEl.disabled = true;
+  inputDifficultyEL.disabled = true;
+
+  setTimeout(() => 
+  {
+    inputTimeEl.disabled = false;
+    inputDifficultyEL.disabled = false;
+  }, totalTime*1000)
 }
 
 function bonk(e) {
@@ -77,7 +86,7 @@ function bonk(e) {
   scoreBoard.textContent = score;
 }
 
-moles.forEach(mole => mole.addEventListener('click', bonk));
+lights.forEach(light => light.addEventListener('click', bonk));
 
 
 setInterval(() =>

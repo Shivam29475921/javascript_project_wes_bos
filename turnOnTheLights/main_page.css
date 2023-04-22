@@ -120,7 +120,7 @@ html {
     bottom: -30px;
   }
   
-  .mole {
+  .light {
     background: url(svg/light-bulb-svgrepo-com.svg) bottom center no-repeat;
     background-size: 60%;
     position: absolute;
@@ -130,7 +130,7 @@ html {
     transition:all 0.4s;
   }
   
-  .up .mole {
+  .up .light {
     top: 0;
   }
 
